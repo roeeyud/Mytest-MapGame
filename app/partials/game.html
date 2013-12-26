@@ -1,0 +1,14 @@
+{{help}}
+<div ng-hide="hide">
+    <style type="text/css">
+        html { height: 100% }
+        body { height: 100%; margin: 0px; padding: 0px }
+        .google-map{width:300px; height:300px}
+    </style>
+
+    <div class="google-map" game-map="{{target}}"></div>
+    <p/>
+    Enter Latitude: <input ng-model="myLatLng.lat"> </input>
+    <p/>
+    Enter Longitude: <input ng-model="myLatLng.lng" ng-change="{{updateMyMarker(myLatLng)}}"> </input>
+</div>
