@@ -17,6 +17,7 @@
     "karma-script-launcher": "~0.1.0"
   },
   "dependencies":{
+    "hapi": "*",
     "socket.io": "*"
   }
 }
